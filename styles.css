@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.btn-modern{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: -5px ;
+}
+.btn-modern:hover{
+    transition: 4s ;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    box-shadow: 2px 2px black;
+}
